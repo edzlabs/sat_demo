@@ -2,9 +2,9 @@
 
 Copyright 2021  Personal Digital Spaces LLC , All rights reserved.
 
-   Allows viewing of users' assets and associated Serialized Asset Tokens
-   Shows meta information 
-   Shows royalties and certification
+   - Allows viewing of users' assets and associated Serialized Asset Tokens
+   - Shows meta information 
+   - Shows royalties and certification
 
 ## Repository Overview
 
