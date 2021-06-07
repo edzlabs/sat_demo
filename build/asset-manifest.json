@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.js": "/static/js/main.2feb96b4.chunk.js",
+    "main.js.map": "/static/js/main.2feb96b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d3d56766.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d3d56766.js.map",
+    "static/js/2.6e4abdf8.chunk.js": "/static/js/2.6e4abdf8.chunk.js",
+    "static/js/2.6e4abdf8.chunk.js.map": "/static/js/2.6e4abdf8.chunk.js.map",
+    "static/js/3.c086b7d5.chunk.js": "/static/js/3.c086b7d5.chunk.js",
+    "static/js/3.c086b7d5.chunk.js.map": "/static/js/3.c086b7d5.chunk.js.map",
+    "static/js/4.9a86d902.chunk.js": "/static/js/4.9a86d902.chunk.js",
+    "static/js/4.9a86d902.chunk.js.map": "/static/js/4.9a86d902.chunk.js.map",
+    "static/js/5.36eb09aa.chunk.js": "/static/js/5.36eb09aa.chunk.js",
+    "static/js/5.36eb09aa.chunk.js.map": "/static/js/5.36eb09aa.chunk.js.map",
+    "static/js/6.766482c7.chunk.js": "/static/js/6.766482c7.chunk.js",
+    "static/js/6.766482c7.chunk.js.map": "/static/js/6.766482c7.chunk.js.map",
+    "static/js/7.cc243a6a.chunk.js": "/static/js/7.cc243a6a.chunk.js",
+    "static/js/7.cc243a6a.chunk.js.map": "/static/js/7.cc243a6a.chunk.js.map",
+    "static/js/8.329962e2.chunk.js": "/static/js/8.329962e2.chunk.js",
+    "static/js/8.329962e2.chunk.js.map": "/static/js/8.329962e2.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.6e4abdf8.chunk.js.LICENSE.txt": "/static/js/2.6e4abdf8.chunk.js.LICENSE.txt",
+    "static/media/BEYOND-NFTs-v2.a9367cf4.png": "/static/media/BEYOND-NFTs-v2.a9367cf4.png",
+    "static/media/PDS-Logo.dcac81d0.png": "/static/media/PDS-Logo.dcac81d0.png",
+    "static/media/SAT-Logo.d159911f.png": "/static/media/SAT-Logo.d159911f.png",
+    "static/media/Screen-Shot-0-NFT.79a377bf.jpg": "/static/media/Screen-Shot-0-NFT.79a377bf.jpg",
+    "static/media/Screen-Shot-1-NFT.7b9f450e.jpg": "/static/media/Screen-Shot-1-NFT.7b9f450e.jpg",
+    "static/media/Screen-Shot-2-NFT.1a45c990.jpg": "/static/media/Screen-Shot-2-NFT.1a45c990.jpg",
+    "static/media/Screen-Shot-3-NFT.6cb6e4df.png": "/static/media/Screen-Shot-3-NFT.6cb6e4df.png",
+    "static/media/Screen-Shot-4-NFT.17df1119.jpg": "/static/media/Screen-Shot-4-NFT.17df1119.jpg",
+    "static/media/back.202d0d1c.svg": "/static/media/back.202d0d1c.svg",
+    "static/media/big-logo.28aa6ade.png": "/static/media/big-logo.28aa6ade.png",
+    "static/media/home-bg.401f9774.png": "/static/media/home-bg.401f9774.png",
+    "static/media/logo.f8dc8a33.svg": "/static/media/logo.f8dc8a33.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3d56766.js",
+    "static/js/2.6e4abdf8.chunk.js",
+    "static/js/main.2feb96b4.chunk.js"
+  ]
+}

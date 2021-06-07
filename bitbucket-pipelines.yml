@@ -1,0 +1,40 @@
+# This is an example Starter pipeline configuration
+# Use a skeleton to build, test and deploy using manual and parallel steps
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: atlassian/default-image:2
+
+pipelines:
+  default:
+    - step:
+        name: 'Build and Test'
+        image: node:14.5.0
+        script:
+          - echo "Your build and test goes here..."
+          - yarn install
+          - CI=false yarn build
+        artifacts:
+            - build/**
+    # The following deployment steps will be executed for each pipeline run. To configure your steps and conditionally deploy see https://support.atlassian.com/bitbucket-cloud/docs/configure-bitbucket-pipelinesyml/
+    - step:
+        name: 'Deployment to Staging'
+        deployment: staging
+        services:
+          - docker
+        script:
+          - echo "Your deployment to staging script goes here..."
+          - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+          - docker build -t $DOCKER_URI:$BITBUCKET_BUILD_NUMBER .
+          - docker push $DOCKER_URI:$BITBUCKET_BUILD_NUMBER
+    - step:
+        name: 'Deployment to Production'
+        deployment: production
+        trigger: 'manual'
+        image: google/cloud-sdk:latest
+        script:
+          - echo "Your deployment to production script goes here..."
+          - echo $GCLOUD_API_KEYFILE > ~/.gcloud-api-key.json
+          - gcloud auth activate-service-account --key-file ~/.gcloud-api-key.json
+          - gcloud container clusters get-credentials $K8S_CLUSTER_NAME_PROD --zone=$GCLOUD_ZONE --project $GCLOUD_PROJECT_ID
+          - kubectl set image deployment pdsapp-ssl pdsapp-ssl=$DOCKER_URI:$BITBUCKET_BUILD_NUMBER --record=true
+

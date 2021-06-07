@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    cloud.google.com/neg: '{"ingress":true}'
+  labels:
+    app: pdsapp-ssl
+  name: pdsapp-ssl
+  namespace: default
+spec:
+  externalTrafficPolicy: Cluster
+  loadBalancerIP: 104.197.210.80
+  ports:
+  - nodePort: 30074
+    port: 88
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: pdsapp-ssl
+  sessionAffinity: None
+  type: LoadBalancer
