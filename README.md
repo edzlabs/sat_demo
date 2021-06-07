@@ -1,4 +1,4 @@
-SAT Gallery Demo Application
+SAT Gallery Demo Application.  Copyright 2021  PDS LLC , All rights reserved.
 
    Allows to view users' assets and associated Serialized Asset Tockens
    Shows meta information 
