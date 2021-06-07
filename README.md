@@ -72,7 +72,7 @@ the static server starts
 
 > #### build/
 > 
-> in the server config you need to link to build / index.html
+> In the server config you need to link to build / index.html
 > 
 > Thumbnails need to be added to folders
 > - #### build/thumbnail/
@@ -93,7 +93,9 @@ http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15
 http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15d904E&tradeType=BUY&licenseType=SATCREATE&assetId=351&offset=0&limit=100
 
 
-> #### 0x613250e0384E60BC9cAb2585d7799470B8415eDe - this is "sellerId" from the first request http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15d904E&tradeType=BUY&licenseType=SATCREATE&assetId=388&offset=0&limit=100
+> #### 0x613250e0384E60BC9cAb2585d7799470B8415eDe - this is "sellerId" from the first request 
+
+http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15d904E&tradeType=BUY&licenseType=SATCREATE&assetId=388&offset=0&limit=100
 
 http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B8415eDe&tradeType=BUY&licenseType=OWNERSHIP&assetId=388&offset=0&limit=100
 
@@ -103,16 +105,16 @@ http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B84
 
 ## Strategy:
 
-> - ROYALTY TREE 1 -> tagid = 431
-DIGITAL ASSET BADGE 1 tagid->dabid = 388
->
-> - CERTIFICATION 1 <-    tagid->dabid->tagid some tag
-SUBTAG 1 <-    tagid->dabid->tagid->dabid
->
-> - DIGITAL ASSET BADGE 2 tagid->dabid = 351
+ - ROYALTY TREE 1 -> tagid = 431
+ - DIGITAL ASSET BADGE 1 tagid->dabid = 388
 
-> - CERTIFICATION 2 <-- have not received yet
-> - SUBTAG 2 <-- have not received yet
+ - CERTIFICATION 1 <-    tagid->dabid->tagid some tag
+ -  SUBTAG 1 <-    tagid->dabid->tagid->dabid
+
+ - DIGITAL ASSET BADGE 2 tagid->dabid = 351
+
+ - CERTIFICATION 2 <-- have not received yet
+ -  SUBTAG 2 <-- have not received yet
 
 ----
 
