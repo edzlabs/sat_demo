@@ -105,16 +105,16 @@ http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B84
 
 ## Strategy:
 
- - ROYALTY TREE 1 -> tagid = 431
- - DIGITAL ASSET BADGE 1 tagid->dabid = 388
+> - ROYALTY TREE 1 -> tagid = 431
+> - DIGITAL ASSET BADGE 1 tagid->dabid = 388
 
- - CERTIFICATION 1 <-    tagid->dabid->tagid some tag
- -  SUBTAG 1 <-    tagid->dabid->tagid->dabid
+> - CERTIFICATION 1 <-    tagid->dabid->tagid some tag
+>   -  SUBTAG 1 <-    tagid->dabid->tagid->dabid
 
- - DIGITAL ASSET BADGE 2 tagid->dabid = 351
+> - DIGITAL ASSET BADGE 2 tagid->dabid = 351
 
- - CERTIFICATION 2 <-- have not received yet
- -  SUBTAG 2 <-- have not received yet
+> - CERTIFICATION 2 <-- have not received yet
+>   -  SUBTAG 2 <-- have not received yet
 
 ----
 
