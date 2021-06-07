@@ -12,8 +12,9 @@ Copyright 2021  Personal Digital Spaces LLC , All rights reserved.
    - public - thumbnails for assets (static for now, to be replaced with dymanic view later)
    - src/services - PDS API calls
 
+----
 
-### Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -77,6 +78,8 @@ the static server starts
 > - #### build/thumbnail/
 > - #### public/thumbnail/
 
+----
+
 ## How to get royalties
 1. http://34.69.151.182:8080/api/deals?userId=0xd54b75d4dfe459f4aca0cd4eda10fae2d52bc375&tradeType=BUY&licenseType=OWNERSHIP&assetId=431&offset=0&limit=100
 
@@ -96,6 +99,8 @@ http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B84
 
 http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B8415eDe&tradeType=BUY&licenseType=OWNERSHIP&assetId=351&offset=0&limit=100
 
+----
+
 ## Strategy:
 
 > - ROYALTY TREE 1 -> tagid = 431
@@ -109,6 +114,7 @@ SUBTAG 1 <-    tagid->dabid->tagid->dabid
 > - CERTIFICATION 2 <-- have not received yet
 > - SUBTAG 2 <-- have not received yet
 
+----
 
 ## Docker address
 > - http://0.0.0.0:8080
