@@ -68,7 +68,7 @@ the static server starts
 
 ----
 
-## Folder with the assembled project
+## Folder with the assembled project:
 
 > #### build/
 > 
@@ -80,7 +80,7 @@ the static server starts
 
 ----
 
-## How to get royalties
+## How to get royalties:
 1. http://34.69.151.182:8080/api/deals?userId=0xd54b75d4dfe459f4aca0cd4eda10fae2d52bc375&tradeType=BUY&licenseType=OWNERSHIP&assetId=431&offset=0&limit=100
 
 2. http://34.69.151.182:8080/api/sats?queryOption=list&satId=431&offset=0&limit=100 -> dabid [388, 351]
@@ -93,7 +93,7 @@ http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15
 http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15d904E&tradeType=BUY&licenseType=SATCREATE&assetId=351&offset=0&limit=100
 
 
-> #### 0x613250e0384E60BC9cAb2585d7799470B8415eDe - this is "sellerId" from the first request 
+> #### 0x613250e0384E60BC9cAb2585d7799470B8415eDe - this is "buyerId" from the first request 
 
 http://34.69.151.182:8080/api/deals?userId=0x5b084976Cf236C4Ac4DEA67df999F583D15d904E&tradeType=BUY&licenseType=SATCREATE&assetId=388&offset=0&limit=100
 
@@ -118,5 +118,5 @@ http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B84
 
 ----
 
-## Docker address
+## Docker address:
  - http://0.0.0.0:8080
