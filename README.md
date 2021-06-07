@@ -13,11 +13,11 @@ Copyright 2021  Personal Digital Spaces LLC , All rights reserved.
    - src/services - PDS API calls
 
 
-Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -44,7 +44,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+ `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -54,20 +54,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### `yarn server`
+ `yarn server`
 
 the static server starts
 `Running on http://0.0.0.0:8080`
 
 ----
 
-#Folder with the assembled project
+## Folder with the assembled project
 
 > #### build/
 > 
@@ -96,7 +96,7 @@ http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B84
 
 http://34.69.151.182:8080/api/deals?userId=0x613250e0384E60BC9cAb2585d7799470B8415eDe&tradeType=BUY&licenseType=OWNERSHIP&assetId=351&offset=0&limit=100
 
-# Strategy:
+## Strategy:
 
 > - ROYALTY TREE 1 -> tagid = 431
 DIGITAL ASSET BADGE 1 tagid->dabid = 388
@@ -110,5 +110,5 @@ SUBTAG 1 <-    tagid->dabid->tagid->dabid
 > - SUBTAG 2 <-- have not received yet
 
 
-# Docker address
+## Docker address
 > - http://0.0.0.0:8080
